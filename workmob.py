@@ -12,7 +12,7 @@ from urllib.error import URLError
 
 
 url = "https://preprod.workmob.com/"
-page_title = "WorkMob - WorkMob is a fun social network that helps you meet, connect and share with people at work"
+page_title = "WorkMob - WorkMob is a fun social network that helps you meet, connect and share with people at work."
 workmob_logo = "//img[@class='-PRqc']"
 
 

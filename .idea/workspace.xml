@@ -195,6 +195,12 @@
     <history-entry file="pytest_in_workmob_py - 2019.12.02 at 16h 20m 41s.xml">
       <configuration name="pytest in workmob.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_workmob_WorkMob - 2019.12.04 at 11h 54m 28s.xml">
+      <configuration name="pytest for workmob.WorkMob" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_workmob_py - 2019.12.04 at 11h 56m 11s.xml">
+      <configuration name="pytest in workmob.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
