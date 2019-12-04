@@ -97,7 +97,7 @@ class WorkMob(unittest.TestCase):
             if not all([self.verify_page_title(page_title),self.verify_workmob_logo()]):
                 print("Sending an email...")
                 message = "Workmob Page Validation Script Failed. Unable To Load WorkMob Page OR something has changed on the workmob page.<br><br>Test url - https://preprod.workmob.com/"
-                emailto = ["sagar@arcgate.com", "harish@arcgate.com"]
+                emailto = ["sagar@arcgate.com", "harish@arcgate.com", "deepak@arcgate.com"]
                 config = Config()
                 config.send_email(message, emailto, "Urgent - Workmob Error Notification")
         except Exception as error:
