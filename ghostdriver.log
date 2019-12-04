@@ -1,0 +1,19 @@
+[INFO  - 2019-12-02T10:50:11.103Z] GhostDriver - Main - running on port 64298
+[INFO  - 2019-12-02T10:50:13.188Z] Session [848e65e0-14f1-11ea-b9b6-01aaadb0bca0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":true,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-12-02T10:50:13.189Z] Session [848e65e0-14f1-11ea-b9b6-01aaadb0bca0] - page.customHeaders:  - {}
+[INFO  - 2019-12-02T10:50:13.189Z] Session [848e65e0-14f1-11ea-b9b6-01aaadb0bca0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-12-02T10:50:13.189Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 848e65e0-14f1-11ea-b9b6-01aaadb0bca0
+[ERROR - 2019-12-02T10:50:17.333Z] Session [848e65e0-14f1-11ea-b9b6-01aaadb0bca0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.videoEl.textTracks.addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-02T10:50:17.333Z] Session [848e65e0-14f1-11ea-b9b6-01aaadb0bca0] - page.onError - stack:
+  sr (https://preprod.workmob.com/Main.js:14)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-02T10:50:17.336Z] Session [848e65e0-14f1-11ea-b9b6-01aaadb0bca0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.videoEl.textTracks.removeEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-02T10:50:17.336Z] Session [848e65e0-14f1-11ea-b9b6-01aaadb0bca0] - page.onError - stack:
+  sr (https://preprod.workmob.com/Main.js:14)
+
+  phantomjs://platform/console++.js:263 in error

@@ -91,7 +91,6 @@ class WorkMob(unittest.TestCase):
         time.sleep(5)
         self.kill_phantomJS()
 
-
     def test_checkout_page_load(self):
         self.navigate_to_page(url)
         try:
@@ -106,17 +105,17 @@ class WorkMob(unittest.TestCase):
 
         self.verify_httpRequest(url)
 
-    
+
+
 class Config(object):
 
     ENABLED_EMAILS = True
     EMAIL_CONFIG = {
-        "SENDER": "dynamicsagar@gmail.com",
+        "SENDER": "sagar dixit",
         "SMTP_HOST": "smtp.gmail.com",
         "SMTP_PORT": 587,
-        "SMTP_USERNAME": "dynamicsagar@gmail.com",
-        "SMTP_PASSWORD": "@",
-
+        "SMTP_USERNAME": "sagar.dixit1990@gmail.com",
+        "SMTP_PASSWORD": "riskyhbaba@321",
     }
 
     def send_email(self, message, recipients, subject="WorkMob Notification",
@@ -132,7 +131,9 @@ class Config(object):
                 SMTP_PORT = Config.EMAIL_CONFIG["SMTP_PORT"]
                 SMTP_USERNAME = Config.EMAIL_CONFIG["SMTP_USERNAME"]
                 SMTP_PASSWORD = Config.EMAIL_CONFIG["SMTP_PASSWORD"]
+
                 self.conn = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+                self.conn.ehlo()
                 self.conn.starttls()
                 self.conn.login(SMTP_USERNAME, SMTP_PASSWORD)
                 recipients = [s for s in recipients if s[s.find("@") + 1:]]
@@ -156,8 +157,8 @@ class Config(object):
         except Exception as e:
             print("Failed to send an email : {}".format(e), e)
         finally:
-            self.quit()
 
+            print("quit the connection")
 
 
 if __name__ == "__main__":
