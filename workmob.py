@@ -12,7 +12,7 @@ from urllib.error import URLError
 
 
 url = "https://preprod.workmob.com/"
-page_title = "WorkMob - WorkMob is a fun social network that helps you meet, connect and share with people at work."
+page_title = "WorkMob - WorkMob is a fun social network that helps you meet, connect and share with people at work"
 workmob_logo = "//img[@class='-PRqc']"
 
 
@@ -96,14 +96,14 @@ class WorkMob(unittest.TestCase):
         try:
             if not all([self.verify_page_title(page_title),self.verify_workmob_logo()]):
                 print("Sending an email...")
-                message = "Workmob Page Validation Script Failed. Unable To Load WorkMob Page from bridge OR something has changed on the checkout page.<br><br>Test url - https://www.workmob.com/"
+                message = "Workmob Page Validation Script Failed. Unable To Load WorkMob Page OR something has changed on the workmob page.<br><br>Test url - https://www.workmob.com/"
                 emailto = ["sagar@arcgate.com"]
                 config = Config()
                 config.send_email(message, emailto, "Urgent - Workmob Error Notification")
         except Exception as error:
             print(error)
 
-        self.verify_httpRequest(url)
+        #self.verify_httpRequest(url)
 
 
 
