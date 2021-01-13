@@ -1,0 +1,35 @@
+<environment>
+
+
+    <parameter>
+        <key>Project Name:</key>
+        <value>Silamoney</value>
+    </parameter >   
+    
+    <parameter>
+        <key>Executed By:</key>
+        <value>Arcgate</value>
+    </parameter>    
+    
+     <parameter>
+        <key>Testing Type:</key>
+        <value>API Automation</value>
+    </parameter>   
+    
+    <parameter>
+        <key>SDK Platform:</key>
+        <value>Java</value>
+    </parameter>    
+    
+    <parameter>
+        <key>SDK Version:</key>
+        <value>0.2.13-rc</value>
+    </parameter>    
+    
+    <parameter>
+        <key>Test Environment:</key>
+        <value>SANDBOX</value>
+    </parameter>   
+    
+
+</environment>
